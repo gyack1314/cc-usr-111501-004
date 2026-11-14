@@ -1,0 +1,43 @@
+{
+  "map_segments": [
+    {
+      "segment_id": "a",
+      "valid_from": 0,
+      "valid_to": 20,
+      "length_m": 1000
+    }
+  ],
+  "map_adjacency": [],
+  "telemetry": [
+    {
+      "point_id": "p1",
+      "run_id": "r1",
+      "at": 1,
+      "accuracy_m": 2,
+      "lat": 0,
+      "lon": 0
+    }
+  ],
+  "map_versions": [
+    {
+      "version": "v1"
+    }
+  ],
+  "work_runs": [
+    {
+      "run_id": "r1",
+      "map_version": "v1",
+      "start": 0,
+      "end": 8,
+      "takeover": true,
+      "rework": false
+    }
+  ],
+  "audits": [
+    {
+      "audit_id": "a1",
+      "run_id": "r1",
+      "observed_fraction": 0.5
+    }
+  ]
+}
